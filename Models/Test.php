@@ -5,7 +5,7 @@ use Base\Model;
 
 class Test extends Model {
 
-	private $_tname = "wm_member";
+	private $_tname = "test";
 
 
 	public function init() {

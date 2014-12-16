@@ -31,10 +31,10 @@ abstract class Controller {
     private $_action;
 
     function __construct($modules, $controller, $action) {
-		$this->_modules = $modules;
-		$this->_controller = $controller;
-		$this->_action = $action;
-		$this->View = new View($modules, $controller, $action);
+		$this->_modules 	= $modules;
+		$this->_controller 	= $controller;
+		$this->_action 		= $action;
+		$this->View 		= new View($modules, $controller, $action);
 		$this->init();
     }
 

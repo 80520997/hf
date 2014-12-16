@@ -1,5 +1,8 @@
 <?php
-//公用session类
+/**
+ * 公用session类
+ * 
+ */
 class Session{
     //是否已经初始化过了
 	private static $init = false;

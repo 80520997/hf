@@ -1,5 +1,9 @@
 <?php
-
+/**
+ * 业务模型基础类
+ * @author houwei
+ *
+ */
 namespace Base;
 abstract class Model
 {

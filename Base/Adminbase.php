@@ -1,7 +1,7 @@
 <?php
 
-/* Description:扩展测试基类
- * Encoding : UTF-8
+/**
+ * Description:扩展测试基类
  * Created on : 2014-12-9 
  */
 namespace Base;

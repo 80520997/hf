@@ -1,6 +1,6 @@
 <?php
 /**
- * 模板类
+ * 模板基础类
  * 
  * 
  */
@@ -49,12 +49,8 @@ final class View {
 		if(!is_file($f)) {
 			throw new \Exception("模板".$f."不存在");
 		}
-		//ob_start();
+
 		include $f;
-		$str = ob_get_contents();
-		//ob_end_clean();
-		//return $str;
-		
 	}
 	
 	/**
