@@ -9,11 +9,9 @@ class IndexController extends Controller
 	/**
 	 * 模版测试
 	 */
-	function indexAction(){
-	
+	function indexAction(){	
 		$this->View->name = "hf";
-		
-		$this->View->setTmp('Index/index');
+		//echo	$this->View->setTmp('Index/index');
 
 	}
 	

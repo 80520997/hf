@@ -76,6 +76,7 @@ class Hf{
 				throw new Exception('对应动作不存在，请检查路径！', 404);
 			}
 			$obj->$action_name();
+			$obj->showTmp();
 		} catch (Exception $e) {
 			print_r($e);
 			exit;
